@@ -14,7 +14,7 @@ This is simple test suit could be used in monitoring/deployment.
 # USAGE
 
     carton install
-    carton exec swat swat::metacpan::web https://metacpan.org 
+    carton exec swat ./  
 
 # Settings
 

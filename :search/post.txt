@@ -1,0 +1,3 @@
+200 OK
+lib/swat.pm
+regexp: name="release"\s+value="swat-(\d+\.\d+\.\d+)"
