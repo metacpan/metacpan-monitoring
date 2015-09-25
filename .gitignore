@@ -18,3 +18,15 @@ nytprof.out
 *.o
 *.bs
 /_eumm/
+MYMETA.json
+MYMETA.yml
+Makefile
+Makefile.old
+MANIFEST.bak
+blib/
+pm_to_blib
+*.tar.gz
+*.html
+*.tmp
+swat.my
+
