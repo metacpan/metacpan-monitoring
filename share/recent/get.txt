@@ -1,0 +1,12 @@
+200 OK
+Recent - metacpan.org
+
+
+begin:
+<small class="smaller">
+regexp: (\d+,\d+)
+code: my $total=capture()->[0]; s/,// for $total; cmp_ok($total,'>',0,"total number: $total is greater than 0");
+regexp: results \((.*)\)
+code: ok(1,'metacpan results in '.(capture()->[0]).' seconds')
+</small>
+end:

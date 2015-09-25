@@ -1,0 +1,944 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0HTTP/1.1 200 Connection established
+
+  0     0    0     0    0     0      0      0 --:--:--  0:00:07 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:07 --:--:--     0HTTP/1.1 200 OK
+Server: nginx/1.6.2
+Content-Type: application/rss+xml; charset=UTF-8
+Last-Modified: Wed, 23 Sep 2015 12:21:07 GMT
+X-Runtime: 0.316259
+Via: 1.1 varnish
+Content-Length: 47599
+Accept-Ranges: bytes
+Date: Wed, 23 Sep 2015 12:24:35 GMT
+Via: 1.1 varnish
+Age: 0
+Connection: keep-alive
+X-Served-By: cache-lcy1123-LCY, cache-jfk1026-JFK
+X-Cache: MISS, MISS
+X-Cache-Hits: 0, 0
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns="http://purl.org/rss/1.0/"
+ xmlns:admin="http://webns.net/mvcb/"
+ xmlns:atom="http://www.w3.org/2005/Atom"
+ xmlns:content="http://purl.org/rss/1.0/modules/content/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+ xmlns:syn="http://purl.org/rss/1.0/modules/syndication/"
+ xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/"
+>
+
+<channel rdf:about="https://metacpan.org/">
+<title>Recent CPAN uploads - MetaCPAN</title>
+<link>https://metacpan.org/</link>
+<description></description>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="https://metacpan.org/release/VDB/Dist-Zilla-Role-TextTemplater-v0.8.2" />
+  <rdf:li rdf:resource="https://metacpan.org/release/SCHWIGON/BenchmarkAnything-Storage-Backend-SQL-0.015" />
+  <rdf:li rdf:resource="https://metacpan.org/release/SCHWIGON/Dist-Zilla-PluginBundle-SCHWIGON-0.015" />
+  <rdf:li rdf:resource="https://metacpan.org/release/VDB/Dist-Zilla-Plugin-Templates-v0.5.1" />
+  <rdf:li rdf:resource="https://metacpan.org/release/VDB/Dist-Zilla-Plugin-Manifest-Read-v0.3.1" />
+  <rdf:li rdf:resource="https://metacpan.org/release/SHLOMIF/App-Timestamper-0.0.5" />
+  <rdf:li rdf:resource="https://metacpan.org/release/RKITOVER/Catalyst-Plugin-SmartURI-0.040" />
+  <rdf:li rdf:resource="https://metacpan.org/release/SCHWIGON/Task-BenchmarkAnything-0.002" />
+  <rdf:li rdf:resource="https://metacpan.org/release/BINARY/HTML-FormBuilder-0.08" />
+  <rdf:li rdf:resource="https://metacpan.org/release/MANWAR/Map-Tube-Tokyo-0.21" />
+  <rdf:li rdf:resource="https://metacpan.org/release/PERLANCAR/Complete-Module-0.21" />
+  <rdf:li rdf:resource="https://metacpan.org/release/PERLANCAR/App-DateUtils-0.02" />
+  <rdf:li rdf:resource="https://metacpan.org/release/PERLANCAR/Pod-Weaver-Plugin-Rinci-0.44" />
+  <rdf:li rdf:resource="https://metacpan.org/release/PERLANCAR/Perinci-To-Doc-0.64" />
+  <rdf:li rdf:resource="https://metacpan.org/release/MJEMMESON/LWP-UserAgent-Mockable-1.14" />
+  <rdf:li rdf:resource="https://metacpan.org/release/PERLANCAR/Perinci-Sub-To-CLIDocData-0.23" />
+  <rdf:li rdf:resource="https://metacpan.org/release/HOCHSTEN/Catmandu-OAI-0.10" />
+  <rdf:li rdf:resource="https://metacpan.org/release/HOCHSTEN/MODS-Record-0.11" />
+  <rdf:li rdf:resource="https://metacpan.org/release/PERLANCAR/App-DateUtils-0.01" />
+  <rdf:li rdf:resource="https://metacpan.org/release/BKB/Lingua-JA-Moji-0.38" />
+  <rdf:li rdf:resource="https://metacpan.org/release/BKB/Lingua-JA-Moji-0.37" />
+  <rdf:li rdf:resource="https://metacpan.org/release/HKOBA/MOP4Import-0.000_001" />
+  <rdf:li rdf:resource="https://metacpan.org/release/PERLANCAR/Perinci-CmdLine-Inline-0.23" />
+  <rdf:li rdf:resource="https://metacpan.org/release/PERLANCAR/Test-Perinci-CmdLine-1.23" />
+  <rdf:li rdf:resource="https://metacpan.org/release/PERLANCAR/Perinci-Examples-0.59" />
+  <rdf:li rdf:resource="https://metacpan.org/release/PERLANCAR/Perinci-CmdLine-Inline-0.22" />
+  <rdf:li rdf:resource="https://metacpan.org/release/REEDFISH/Net-FullAuto-0.99999999999974" />
+  <rdf:li rdf:resource="https://metacpan.org/release/ZOFFIX/Test-Mojo-Role-SubmitForm-1.001004" />
+  <rdf:li rdf:resource="https://metacpan.org/release/JHI/Graph-0.97" />
+  <rdf:li rdf:resource="https://metacpan.org/release/SRI/Mojolicious-6.21" />
+  <rdf:li rdf:resource="https://metacpan.org/release/FAYLAND/Business-AuthorizeNet-CIM-0.13" />
+  <rdf:li rdf:resource="https://metacpan.org/release/BKB/Image-PNG-0.22" />
+  <rdf:li rdf:resource="https://metacpan.org/release/ZOFFIX/Package-Localize-1.001001" />
+  <rdf:li rdf:resource="https://metacpan.org/release/SKIM/WebService-MorphIO-0.03" />
+  <rdf:li rdf:resource="https://metacpan.org/release/STEVEB/Devel-Trace-Subs-0.15" />
+  <rdf:li rdf:resource="https://metacpan.org/release/REEDFISH/Net-FullAuto-0.99999999999973" />
+  <rdf:li rdf:resource="https://metacpan.org/release/KJETILK/URI-NamespaceMap-0.27_01" />
+  <rdf:li rdf:resource="https://metacpan.org/release/SKIM/Map-Tube-Malaga-0.14" />
+  <rdf:li rdf:resource="https://metacpan.org/release/STEVEB/Devel-Examine-Subs-1.43" />
+  <rdf:li rdf:resource="https://metacpan.org/release/MELEZHIK/swat-0.1.52" />
+  <rdf:li rdf:resource="https://metacpan.org/release/KUERBIS/Term-Choose-1.205_03" />
+  <rdf:li rdf:resource="https://metacpan.org/release/PATCH/CLDR-Number-0.15" />
+  <rdf:li rdf:resource="https://metacpan.org/release/BPRASAD/Amibroker-AFL-Tools-0.03" />
+  <rdf:li rdf:resource="https://metacpan.org/release/PDURDEN/Device-ProXR-0.05" />
+  <rdf:li rdf:resource="https://metacpan.org/release/MONGODB/MongoDB-v1.0.1" />
+  <rdf:li rdf:resource="https://metacpan.org/release/MJEMMESON/LWP-UserAgent-Mockable-1.13" />
+  <rdf:li rdf:resource="https://metacpan.org/release/VDB/Dist-Zilla-PluginBundle-Author-VDB-v0.8.0" />
+  <rdf:li rdf:resource="https://metacpan.org/release/PERLANCAR/App-BenchLevenshteinModules-0.02" />
+  <rdf:li rdf:resource="https://metacpan.org/release/REEDFISH/Net-FullAuto-0.99999999999972" />
+  <rdf:li rdf:resource="https://metacpan.org/release/MELEZHIK/swat-0.1.51" />
+  <rdf:li rdf:resource="https://metacpan.org/release/BPRASAD/Amibroker-AFL-Tools-0.02" />
+  <rdf:li rdf:resource="https://metacpan.org/release/ALTREUS/App-Multigit-0.10" />
+  <rdf:li rdf:resource="https://metacpan.org/release/SKIM/Random-Set-0.04" />
+  <rdf:li rdf:resource="https://metacpan.org/release/SKIM/Random-Day-0.05" />
+  <rdf:li rdf:resource="https://metacpan.org/release/SCHWIGON/Benchmark-Perl-Formance-0.44" />
+  <rdf:li rdf:resource="https://metacpan.org/release/SCHWIGON/Task-BenchmarkAnything-0.001" />
+  <rdf:li rdf:resource="https://metacpan.org/release/ZOFFIX/Test-Mojo-Role-SubmitForm-1.001003" />
+  <rdf:li rdf:resource="https://metacpan.org/release/HOCHSTEN/MODS-Record-0.10" />
+  <rdf:li rdf:resource="https://metacpan.org/release/STEVEB/Devel-Examine-Subs-1.41" />
+  <rdf:li rdf:resource="https://metacpan.org/release/VOJ/Pandoc-Elements-0.07" />
+  <rdf:li rdf:resource="https://metacpan.org/release/NLNETLABS/Net-DNS-1.02_01" />
+  <rdf:li rdf:resource="https://metacpan.org/release/GNUSTAVO/Git-Hooks-1.11.1" />
+  <rdf:li rdf:resource="https://metacpan.org/release/NJLG/Rethinkdb-0.11" />
+  <rdf:li rdf:resource="https://metacpan.org/release/GNUSTAVO/Git-Hooks-1.11.0" />
+  <rdf:li rdf:resource="https://metacpan.org/release/PERLANCAR/PERLANCAR-Debian-Releases-0.02" />
+  <rdf:li rdf:resource="https://metacpan.org/release/PERLANCAR/App-ListUbuntuReleases-0.06" />
+  <rdf:li rdf:resource="https://metacpan.org/release/JHTHORSEN/DBIx-TempDB-0.08" />
+  <rdf:li rdf:resource="https://metacpan.org/release/PERLANCAR/Ubuntu-Releases-0.06" />
+  <rdf:li rdf:resource="https://metacpan.org/release/ARISTOTLE/XML-Atom-SimpleFeed-0.900" />
+  <rdf:li rdf:resource="https://metacpan.org/release/PERLANCAR/Ubuntu-Releases-0.05" />
+  <rdf:li rdf:resource="https://metacpan.org/release/PERLANCAR/App-ListUbuntuReleases-0.05" />
+  <rdf:li rdf:resource="https://metacpan.org/release/PERLANCAR/App-ListDebianReleases-0.06" />
+  <rdf:li rdf:resource="https://metacpan.org/release/SKIM/Mock-Person-DE-0.05" />
+  <rdf:li rdf:resource="https://metacpan.org/release/PERLANCAR/PERLANCAR-Debian-Releases-0.01" />
+  <rdf:li rdf:resource="https://metacpan.org/release/RENEEB/HTTP-Tiny-Multipart-0.05" />
+  <rdf:li rdf:resource="https://metacpan.org/release/PERLANCAR/App-ListDebianReleases-0.05" />
+  <rdf:li rdf:resource="https://metacpan.org/release/MELEZHIK/swat-0.1.50" />
+  <rdf:li rdf:resource="https://metacpan.org/release/SKIM/Mock-Person-CZ-0.04" />
+  <rdf:li rdf:resource="https://metacpan.org/release/PERLANCAR/Borang-0.02" />
+  <rdf:li rdf:resource="https://metacpan.org/release/MELEZHIK/swat-0.1.49" />
+  <rdf:li rdf:resource="https://metacpan.org/release/VDB/Dist-Zilla-Plugin-Templates-v0.5.0" />
+  <rdf:li rdf:resource="https://metacpan.org/release/MELEZHIK/swat-metacpan-web-0.1.0" />
+  <rdf:li rdf:resource="https://metacpan.org/release/MARKOV/XML-Compile-SOAP-3.12" />
+  <rdf:li rdf:resource="https://metacpan.org/release/MARKOV/XML-Compile-SOAP-3.11" />
+  <rdf:li rdf:resource="https://metacpan.org/release/MELEZHIK/swat-0.1.48" />
+  <rdf:li rdf:resource="https://metacpan.org/release/BENNING/Mail-MtPolicyd-1.21" />
+  <rdf:li rdf:resource="https://metacpan.org/release/AMBS/Lingua-TreeTagger-Installer-0.50" />
+  <rdf:li rdf:resource="https://metacpan.org/release/MANWAR/Map-Tube-Barcelona-0.25" />
+  <rdf:li rdf:resource="https://metacpan.org/release/SKIM/Env-Browser-0.05" />
+  <rdf:li rdf:resource="https://metacpan.org/release/MJEMMESON/LWP-UserAgent-Mockable-1.12" />
+  <rdf:li rdf:resource="https://metacpan.org/release/PERLANCAR/App-PMUtils-0.50" />
+  <rdf:li rdf:resource="https://metacpan.org/release/PERLANCAR/Dist-Zilla-Role-Rinci-CheckDefinesMeta-0.02" />
+  <rdf:li rdf:resource="https://metacpan.org/release/NICS/Catmandu-Store-MongoDB-0.04" />
+  <rdf:li rdf:resource="https://metacpan.org/release/MATTK/IPC-ConcurrencyLimit-0.14" />
+  <rdf:li rdf:resource="https://metacpan.org/release/PERLANCAR/Complete-Path-0.19" />
+  <rdf:li rdf:resource="https://metacpan.org/release/RENEEB/Mojolicious-Plugin-I18NUtils-0.17" />
+  <rdf:li rdf:resource="https://metacpan.org/release/PERLANCAR/Complete-Getopt-Long-0.37" />
+  <rdf:li rdf:resource="https://metacpan.org/release/PHRED/Archive-Zip-1.51" />
+  <rdf:li rdf:resource="https://metacpan.org/release/PREACTION/Statocles-0.055" />
+  <rdf:li rdf:resource="https://metacpan.org/release/KARUPA/Aniki-0.03_01" />
+ </rdf:Seq>
+</items>
+</channel>
+<item rdf:about="https://metacpan.org/release/VDB/Dist-Zilla-Role-TextTemplater-v0.8.2">
+<title>Dist-Zilla-Role-TextTemplater-v0.8.2</title>
+<link>https://metacpan.org/release/VDB/Dist-Zilla-Role-TextTemplater-v0.8.2</link>
+<description>Have text templating capabilities in your Dist::Zilla plugin</description>
+<dc:creator>VDB</dc:creator>
+<dc:date>2015-09-23T12:21:07Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/SCHWIGON/BenchmarkAnything-Storage-Backend-SQL-0.015">
+<title>BenchmarkAnything-Storage-Backend-SQL-0.015</title>
+<link>https://metacpan.org/release/SCHWIGON/BenchmarkAnything-Storage-Backend-SQL-0.015</link>
+<description>Autonomous SQL backend to store benchmarks</description>
+<dc:creator>SCHWIGON</dc:creator>
+<dc:date>2015-09-23T12:14:30Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/SCHWIGON/Dist-Zilla-PluginBundle-SCHWIGON-0.015">
+<title>Dist-Zilla-PluginBundle-SCHWIGON-0.015</title>
+<link>https://metacpan.org/release/SCHWIGON/Dist-Zilla-PluginBundle-SCHWIGON-0.015</link>
+<description>Build your distributions like SCHWIGON does</description>
+<dc:creator>SCHWIGON</dc:creator>
+<dc:date>2015-09-23T12:06:41Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/VDB/Dist-Zilla-Plugin-Templates-v0.5.1">
+<title>Dist-Zilla-Plugin-Templates-v0.5.1</title>
+<link>https://metacpan.org/release/VDB/Dist-Zilla-Plugin-Templates-v0.5.1</link>
+<description>Convert any text file into template</description>
+<dc:creator>VDB</dc:creator>
+<dc:date>2015-09-23T11:56:20Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/VDB/Dist-Zilla-Plugin-Manifest-Read-v0.3.1">
+<title>Dist-Zilla-Plugin-Manifest-Read-v0.3.1</title>
+<link>https://metacpan.org/release/VDB/Dist-Zilla-Plugin-Manifest-Read-v0.3.1</link>
+<description>Have annotated manifest in your source</description>
+<dc:creator>VDB</dc:creator>
+<dc:date>2015-09-23T11:48:31Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/SHLOMIF/App-Timestamper-0.0.5">
+<title>App-Timestamper-0.0.5</title>
+<link>https://metacpan.org/release/SHLOMIF/App-Timestamper-0.0.5</link>
+<description>prefix lines with the timestamps of their arrivals.</description>
+<dc:creator>SHLOMIF</dc:creator>
+<dc:date>2015-09-23T11:25:30Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/RKITOVER/Catalyst-Plugin-SmartURI-0.040">
+<title>Catalyst-Plugin-SmartURI-0.040</title>
+<link>https://metacpan.org/release/RKITOVER/Catalyst-Plugin-SmartURI-0.040</link>
+<description>Configurable URIs for Catalyst</description>
+<dc:creator>RKITOVER</dc:creator>
+<dc:date>2015-09-23T10:55:01Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/SCHWIGON/Task-BenchmarkAnything-0.002">
+<title>Task-BenchmarkAnything-0.002</title>
+<link>https://metacpan.org/release/SCHWIGON/Task-BenchmarkAnything-0.002</link>
+<description>Max dependencies for BenchmarkAnything</description>
+<dc:creator>SCHWIGON</dc:creator>
+<dc:date>2015-09-23T10:52:14Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/BINARY/HTML-FormBuilder-0.08">
+<title>HTML-FormBuilder-0.08</title>
+<link>https://metacpan.org/release/BINARY/HTML-FormBuilder-0.08</link>
+<description>A Multi-part HTML form</description>
+<dc:creator>BINARY</dc:creator>
+<dc:date>2015-09-23T09:25:05Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/MANWAR/Map-Tube-Tokyo-0.21">
+<title>Map-Tube-Tokyo-0.21</title>
+<link>https://metacpan.org/release/MANWAR/Map-Tube-Tokyo-0.21</link>
+<description>Interface to the Tokyo Subway Map.</description>
+<dc:creator>MANWAR</dc:creator>
+<dc:date>2015-09-23T09:20:59Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/PERLANCAR/Complete-Module-0.21">
+<title>Complete-Module-0.21</title>
+<link>https://metacpan.org/release/PERLANCAR/Complete-Module-0.21</link>
+<description>Complete with installed Perl module names</description>
+<dc:creator>PERLANCAR</dc:creator>
+<dc:date>2015-09-23T09:00:35Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/PERLANCAR/App-DateUtils-0.02">
+<title>App-DateUtils-0.02</title>
+<link>https://metacpan.org/release/PERLANCAR/App-DateUtils-0.02</link>
+<description>An assortment of date-/time-related CLI utilities</description>
+<dc:creator>PERLANCAR</dc:creator>
+<dc:date>2015-09-23T09:00:24Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/PERLANCAR/Pod-Weaver-Plugin-Rinci-0.44">
+<title>Pod-Weaver-Plugin-Rinci-0.44</title>
+<link>https://metacpan.org/release/PERLANCAR/Pod-Weaver-Plugin-Rinci-0.44</link>
+<description>Insert stuffs to POD from Rinci metadata</description>
+<dc:creator>PERLANCAR</dc:creator>
+<dc:date>2015-09-23T08:56:21Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/PERLANCAR/Perinci-To-Doc-0.64">
+<title>Perinci-To-Doc-0.64</title>
+<link>https://metacpan.org/release/PERLANCAR/Perinci-To-Doc-0.64</link>
+<description>Convert Rinci metadata to documentation</description>
+<dc:creator>PERLANCAR</dc:creator>
+<dc:date>2015-09-23T08:53:26Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/MJEMMESON/LWP-UserAgent-Mockable-1.14">
+<title>LWP-UserAgent-Mockable-1.14</title>
+<link>https://metacpan.org/release/MJEMMESON/LWP-UserAgent-Mockable-1.14</link>
+<description>Permits recording, and later playing back of LWP requests.</description>
+<dc:creator>MJEMMESON</dc:creator>
+<dc:date>2015-09-23T08:34:17Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/PERLANCAR/Perinci-Sub-To-CLIDocData-0.23">
+<title>Perinci-Sub-To-CLIDocData-0.23</title>
+<link>https://metacpan.org/release/PERLANCAR/Perinci-Sub-To-CLIDocData-0.23</link>
+<description>From Rinci function metadata, generate structure convenient for producing CLI documentation (help/usage/POD)</description>
+<dc:creator>PERLANCAR</dc:creator>
+<dc:date>2015-09-23T08:31:32Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/HOCHSTEN/Catmandu-OAI-0.10">
+<title>Catmandu-OAI-0.10</title>
+<link>https://metacpan.org/release/HOCHSTEN/Catmandu-OAI-0.10</link>
+<description>Catmandu modules for working with OAI repositories</description>
+<dc:creator>HOCHSTEN</dc:creator>
+<dc:date>2015-09-23T08:30:05Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/HOCHSTEN/MODS-Record-0.11">
+<title>MODS-Record-0.11</title>
+<link>https://metacpan.org/release/HOCHSTEN/MODS-Record-0.11</link>
+<description>Perl extension for handling MODS records</description>
+<dc:creator>HOCHSTEN</dc:creator>
+<dc:date>2015-09-23T07:24:09Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/PERLANCAR/App-DateUtils-0.01">
+<title>App-DateUtils-0.01</title>
+<link>https://metacpan.org/release/PERLANCAR/App-DateUtils-0.01</link>
+<description>An assortment of date-/time-related CLI utilities</description>
+<dc:creator>PERLANCAR</dc:creator>
+<dc:date>2015-09-23T07:08:47Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/BKB/Lingua-JA-Moji-0.38">
+<title>Lingua-JA-Moji-0.38</title>
+<link>https://metacpan.org/release/BKB/Lingua-JA-Moji-0.38</link>
+<description>Handle many kinds of Japanese characters</description>
+<dc:creator>BKB</dc:creator>
+<dc:date>2015-09-23T06:54:40Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/BKB/Lingua-JA-Moji-0.37">
+<title>Lingua-JA-Moji-0.37</title>
+<link>https://metacpan.org/release/BKB/Lingua-JA-Moji-0.37</link>
+<description>Handle many kinds of Japanese characters</description>
+<dc:creator>BKB</dc:creator>
+<dc:date>2015-09-23T06:38:02Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/HKOBA/MOP4Import-0.000_001">
+<title>MOP4Import-0.000_001</title>
+<link>https://metacpan.org/release/HKOBA/MOP4Import-0.000_001</link>
+<description>Thin Meta-Object Protocol to build extensible exporters</description>
+<dc:creator>HKOBA</dc:creator>
+<dc:date>2015-09-23T04:35:47Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/PERLANCAR/Perinci-CmdLine-Inline-0.23">
+<title>Perinci-CmdLine-Inline-0.23</title>
+<link>https://metacpan.org/release/PERLANCAR/Perinci-CmdLine-Inline-0.23</link>
+<description>Generate inline Perinci::CmdLine CLI script</description>
+<dc:creator>PERLANCAR</dc:creator>
+<dc:date>2015-09-23T03:06:06Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/PERLANCAR/Test-Perinci-CmdLine-1.23">
+<title>Test-Perinci-CmdLine-1.23</title>
+<link>https://metacpan.org/release/PERLANCAR/Test-Perinci-CmdLine-1.23</link>
+<description>Common test suite for Perinci::CmdLine::{Lite,Classic,Inline}</description>
+<dc:creator>PERLANCAR</dc:creator>
+<dc:date>2015-09-23T03:04:39Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/PERLANCAR/Perinci-Examples-0.59">
+<title>Perinci-Examples-0.59</title>
+<link>https://metacpan.org/release/PERLANCAR/Perinci-Examples-0.59</link>
+<description>Various examples of Rinci metadata</description>
+<dc:creator>PERLANCAR</dc:creator>
+<dc:date>2015-09-23T03:02:56Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/PERLANCAR/Perinci-CmdLine-Inline-0.22">
+<title>Perinci-CmdLine-Inline-0.22</title>
+<link>https://metacpan.org/release/PERLANCAR/Perinci-CmdLine-Inline-0.22</link>
+<description>Generate inline Perinci::CmdLine CLI script</description>
+<dc:creator>PERLANCAR</dc:creator>
+<dc:date>2015-09-23T02:27:26Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/REEDFISH/Net-FullAuto-0.99999999999974">
+<title>Net-FullAuto-0.99999999999974</title>
+<link>https://metacpan.org/release/REEDFISH/Net-FullAuto-0.99999999999974</link>
+<description>Perl Based Secure Distributed Computing Network Process</description>
+<dc:creator>REEDFISH</dc:creator>
+<dc:date>2015-09-23T02:10:38Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/ZOFFIX/Test-Mojo-Role-SubmitForm-1.001004">
+<title>Test-Mojo-Role-SubmitForm-1.001004</title>
+<link>https://metacpan.org/release/ZOFFIX/Test-Mojo-Role-SubmitForm-1.001004</link>
+<description>Test::Mojo role that allows to submit forms</description>
+<dc:creator>ZOFFIX</dc:creator>
+<dc:date>2015-09-23T01:54:01Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/JHI/Graph-0.97">
+<title>Graph-0.97</title>
+<link>https://metacpan.org/release/JHI/Graph-0.97</link>
+<description>a Perl extension for keeping data partially sorted</description>
+<dc:creator>JHI</dc:creator>
+<dc:date>2015-09-23T01:14:28Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/SRI/Mojolicious-6.21">
+<title>Mojolicious-6.21</title>
+<link>https://metacpan.org/release/SRI/Mojolicious-6.21</link>
+<description>Real-time web framework</description>
+<dc:creator>SRI</dc:creator>
+<dc:date>2015-09-23T01:05:04Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/FAYLAND/Business-AuthorizeNet-CIM-0.13">
+<title>Business-AuthorizeNet-CIM-0.13</title>
+<link>https://metacpan.org/release/FAYLAND/Business-AuthorizeNet-CIM-0.13</link>
+<description>Authorize.Net Customer Information Manager (CIM) Web Services API</description>
+<dc:creator>FAYLAND</dc:creator>
+<dc:date>2015-09-23T00:34:37Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/BKB/Image-PNG-0.22">
+<title>Image-PNG-0.22</title>
+<link>https://metacpan.org/release/BKB/Image-PNG-0.22</link>
+<description>Read and write PNG files</description>
+<dc:creator>BKB</dc:creator>
+<dc:date>2015-09-22T23:28:53Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/ZOFFIX/Package-Localize-1.001001">
+<title>Package-Localize-1.001001</title>
+<link>https://metacpan.org/release/ZOFFIX/Package-Localize-1.001001</link>
+<description>localize package variables in other packages</description>
+<dc:creator>ZOFFIX</dc:creator>
+<dc:date>2015-09-22T23:12:16Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/SKIM/WebService-MorphIO-0.03">
+<title>WebService-MorphIO-0.03</title>
+<link>https://metacpan.org/release/SKIM/WebService-MorphIO-0.03</link>
+<description>Perl class to communication with morph.io.</description>
+<dc:creator>SKIM</dc:creator>
+<dc:date>2015-09-22T22:06:34Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/STEVEB/Devel-Trace-Subs-0.15">
+<title>Devel-Trace-Subs-0.15</title>
+<link>https://metacpan.org/release/STEVEB/Devel-Trace-Subs-0.15</link>
+<description>Generate, track, store and print code flow and stack traces.</description>
+<dc:creator>STEVEB</dc:creator>
+<dc:date>2015-09-22T21:51:10Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/REEDFISH/Net-FullAuto-0.99999999999973">
+<title>Net-FullAuto-0.99999999999973</title>
+<link>https://metacpan.org/release/REEDFISH/Net-FullAuto-0.99999999999973</link>
+<description>Perl Based Secure Distributed Computing Network Process</description>
+<dc:creator>REEDFISH</dc:creator>
+<dc:date>2015-09-22T21:05:26Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/KJETILK/URI-NamespaceMap-0.27_01">
+<title>URI-NamespaceMap-0.27_01</title>
+<link>https://metacpan.org/release/KJETILK/URI-NamespaceMap-0.27_01</link>
+<description>Namespace manipulation and prefix mapping for XML, RDF, etc.</description>
+<dc:creator>KJETILK</dc:creator>
+<dc:date>2015-09-22T20:28:43Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/SKIM/Map-Tube-Malaga-0.14">
+<title>Map-Tube-Malaga-0.14</title>
+<link>https://metacpan.org/release/SKIM/Map-Tube-Malaga-0.14</link>
+<description>Interface to the M&#xE1;laga Metro Map.</description>
+<dc:creator>SKIM</dc:creator>
+<dc:date>2015-09-22T20:20:53Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/STEVEB/Devel-Examine-Subs-1.43">
+<title>Devel-Examine-Subs-1.43</title>
+<link>https://metacpan.org/release/STEVEB/Devel-Examine-Subs-1.43</link>
+<description>Get info about, search/replace and inject code into Perl files and subs.</description>
+<dc:creator>STEVEB</dc:creator>
+<dc:date>2015-09-22T20:15:31Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/MELEZHIK/swat-0.1.52">
+<title>swat-0.1.52</title>
+<link>https://metacpan.org/release/MELEZHIK/swat-0.1.52</link>
+<description>simple web application tests</description>
+<dc:creator>MELEZHIK</dc:creator>
+<dc:date>2015-09-22T18:54:44Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/KUERBIS/Term-Choose-1.205_03">
+<title>Term-Choose-1.205_03</title>
+<link>https://metacpan.org/release/KUERBIS/Term-Choose-1.205_03</link>
+<description>Choose items from a list interactively.</description>
+<dc:creator>KUERBIS</dc:creator>
+<dc:date>2015-09-22T18:45:41Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/PATCH/CLDR-Number-0.15">
+<title>CLDR-Number-0.15</title>
+<link>https://metacpan.org/release/PATCH/CLDR-Number-0.15</link>
+<description>Localized number formatters using the Unicode CLDR</description>
+<dc:creator>PATCH</dc:creator>
+<dc:date>2015-09-22T17:19:28Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/BPRASAD/Amibroker-AFL-Tools-0.03">
+<title>Amibroker-AFL-Tools-0.03</title>
+<link>https://metacpan.org/release/BPRASAD/Amibroker-AFL-Tools-0.03</link>
+<description>Auto Optimizer and Auto Backtester framework for Amibroker</description>
+<dc:creator>BPRASAD</dc:creator>
+<dc:date>2015-09-22T17:16:40Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/PDURDEN/Device-ProXR-0.05">
+<title>Device-ProXR-0.05</title>
+<link>https://metacpan.org/release/PDURDEN/Device-ProXR-0.05</link>
+<description>A Moo based object oriented interface for creating controlling devices using the National Control Devices ProXR command set </description>
+<dc:creator>PDURDEN</dc:creator>
+<dc:date>2015-09-22T17:07:35Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/MONGODB/MongoDB-v1.0.1">
+<title>MongoDB-v1.0.1</title>
+<link>https://metacpan.org/release/MONGODB/MongoDB-v1.0.1</link>
+<description>Official MongoDB Driver for Perl</description>
+<dc:creator>MONGODB</dc:creator>
+<dc:date>2015-09-22T16:59:01Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/MJEMMESON/LWP-UserAgent-Mockable-1.13">
+<title>LWP-UserAgent-Mockable-1.13</title>
+<link>https://metacpan.org/release/MJEMMESON/LWP-UserAgent-Mockable-1.13</link>
+<description>Permits recording, and later playing back of LWP requests.</description>
+<dc:creator>MJEMMESON</dc:creator>
+<dc:date>2015-09-22T16:44:55Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/VDB/Dist-Zilla-PluginBundle-Author-VDB-v0.8.0">
+<title>Dist-Zilla-PluginBundle-Author-VDB-v0.8.0</title>
+<link>https://metacpan.org/release/VDB/Dist-Zilla-PluginBundle-Author-VDB-v0.8.0</link>
+<description>VDB&#x26;#39;s plugin bundle</description>
+<dc:creator>VDB</dc:creator>
+<dc:date>2015-09-22T16:14:27Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/PERLANCAR/App-BenchLevenshteinModules-0.02">
+<title>App-BenchLevenshteinModules-0.02</title>
+<link>https://metacpan.org/release/PERLANCAR/App-BenchLevenshteinModules-0.02</link>
+<description>Benchmark various modules calculating the Levenshtein edit distance</description>
+<dc:creator>PERLANCAR</dc:creator>
+<dc:date>2015-09-22T15:52:47Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/REEDFISH/Net-FullAuto-0.99999999999972">
+<title>Net-FullAuto-0.99999999999972</title>
+<link>https://metacpan.org/release/REEDFISH/Net-FullAuto-0.99999999999972</link>
+<description>Perl Based Secure Distributed Computing Network Process</description>
+<dc:creator>REEDFISH</dc:creator>
+<dc:date>2015-09-22T15:23:23Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/MELEZHIK/swat-0.1.51">
+<title>swat-0.1.51</title>
+<link>https://metacpan.org/release/MELEZHIK/swat-0.1.51</link>
+<dc:creator>MELEZHIK</dc:creator>
+<dc:date>2015-09-22T15:20:33Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/BPRASAD/Amibroker-AFL-Tools-0.02">
+<title>Amibroker-AFL-Tools-0.02</title>
+<link>https://metacpan.org/release/BPRASAD/Amibroker-AFL-Tools-0.02</link>
+<description>Auto Backtester framework for ALL Stocks/Futures/Options/Spot/Commodities across ALL timeframe in Amibroker.</description>
+<dc:creator>BPRASAD</dc:creator>
+<dc:date>2015-09-22T15:10:14Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/ALTREUS/App-Multigit-0.10">
+<title>App-Multigit-0.10</title>
+<link>https://metacpan.org/release/ALTREUS/App-Multigit-0.10</link>
+<description>Run commands on a bunch of git repositories without having to deal with git subrepositories.</description>
+<dc:creator>ALTREUS</dc:creator>
+<dc:date>2015-09-22T14:54:49Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/SKIM/Random-Set-0.04">
+<title>Random-Set-0.04</title>
+<link>https://metacpan.org/release/SKIM/Random-Set-0.04</link>
+<description>Class for random set generation</description>
+<dc:creator>SKIM</dc:creator>
+<dc:date>2015-09-22T14:21:48Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/SKIM/Random-Day-0.05">
+<title>Random-Day-0.05</title>
+<link>https://metacpan.org/release/SKIM/Random-Day-0.05</link>
+<description>Class for random day generation</description>
+<dc:creator>SKIM</dc:creator>
+<dc:date>2015-09-22T14:17:06Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/SCHWIGON/Benchmark-Perl-Formance-0.44">
+<title>Benchmark-Perl-Formance-0.44</title>
+<link>https://metacpan.org/release/SCHWIGON/Benchmark-Perl-Formance-0.44</link>
+<description>Perl 5 performance benchmarking framework</description>
+<dc:creator>SCHWIGON</dc:creator>
+<dc:date>2015-09-22T14:16:54Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/SCHWIGON/Task-BenchmarkAnything-0.001">
+<title>Task-BenchmarkAnything-0.001</title>
+<link>https://metacpan.org/release/SCHWIGON/Task-BenchmarkAnything-0.001</link>
+<description>Max dependencies for BenchmarkAnything</description>
+<dc:creator>SCHWIGON</dc:creator>
+<dc:date>2015-09-22T14:14:06Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/ZOFFIX/Test-Mojo-Role-SubmitForm-1.001003">
+<title>Test-Mojo-Role-SubmitForm-1.001003</title>
+<link>https://metacpan.org/release/ZOFFIX/Test-Mojo-Role-SubmitForm-1.001003</link>
+<description>Test::Mojo role that allows to submit forms</description>
+<dc:creator>ZOFFIX</dc:creator>
+<dc:date>2015-09-22T14:03:45Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/HOCHSTEN/MODS-Record-0.10">
+<title>MODS-Record-0.10</title>
+<link>https://metacpan.org/release/HOCHSTEN/MODS-Record-0.10</link>
+<description>Perl extension for handling MODS records</description>
+<dc:creator>HOCHSTEN</dc:creator>
+<dc:date>2015-09-22T13:48:07Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/STEVEB/Devel-Examine-Subs-1.41">
+<title>Devel-Examine-Subs-1.41</title>
+<link>https://metacpan.org/release/STEVEB/Devel-Examine-Subs-1.41</link>
+<description>Get info, search/replace and inject code in Perl file subs.</description>
+<dc:creator>STEVEB</dc:creator>
+<dc:date>2015-09-22T13:45:16Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/VOJ/Pandoc-Elements-0.07">
+<title>Pandoc-Elements-0.07</title>
+<link>https://metacpan.org/release/VOJ/Pandoc-Elements-0.07</link>
+<description>create and process Pandoc documents</description>
+<dc:creator>VOJ</dc:creator>
+<dc:date>2015-09-22T13:41:11Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/NLNETLABS/Net-DNS-1.02_01">
+<title>Net-DNS-1.02_01</title>
+<link>https://metacpan.org/release/NLNETLABS/Net-DNS-1.02_01</link>
+<description>Perl Interface to the Domain Name System</description>
+<dc:creator>NLNETLABS</dc:creator>
+<dc:date>2015-09-22T13:39:43Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/GNUSTAVO/Git-Hooks-1.11.1">
+<title>Git-Hooks-1.11.1</title>
+<link>https://metacpan.org/release/GNUSTAVO/Git-Hooks-1.11.1</link>
+<description>Framework for implementing Git (and Gerrit) hooks</description>
+<dc:creator>GNUSTAVO</dc:creator>
+<dc:date>2015-09-22T13:20:26Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/NJLG/Rethinkdb-0.11">
+<title>Rethinkdb-0.11</title>
+<link>https://metacpan.org/release/NJLG/Rethinkdb-0.11</link>
+<description>Pure Perl RethinkDB Driver</description>
+<dc:creator>NJLG</dc:creator>
+<dc:date>2015-09-22T13:03:19Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/GNUSTAVO/Git-Hooks-1.11.0">
+<title>Git-Hooks-1.11.0</title>
+<link>https://metacpan.org/release/GNUSTAVO/Git-Hooks-1.11.0</link>
+<description>Framework for implementing Git (and Gerrit) hooks</description>
+<dc:creator>GNUSTAVO</dc:creator>
+<dc:date>2015-09-22T12:52:50Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/PERLANCAR/PERLANCAR-Debian-Releases-0.02">
+<title>PERLANCAR-Debian-Releases-0.02</title>
+<link>https://metacpan.org/release/PERLANCAR/PERLANCAR-Debian-Releases-0.02</link>
+<description>List Debian releases</description>
+<dc:creator>PERLANCAR</dc:creator>
+<dc:date>2015-09-22T12:41:14Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/PERLANCAR/App-ListUbuntuReleases-0.06">
+<title>App-ListUbuntuReleases-0.06</title>
+<link>https://metacpan.org/release/PERLANCAR/App-ListUbuntuReleases-0.06</link>
+<description>List Ubuntu releases (CLI)</description>
+<dc:creator>PERLANCAR</dc:creator>
+<dc:date>2015-09-22T12:37:12Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/JHTHORSEN/DBIx-TempDB-0.08">
+<title>DBIx-TempDB-0.08</title>
+<link>https://metacpan.org/release/JHTHORSEN/DBIx-TempDB-0.08</link>
+<description>Create a temporary database</description>
+<dc:creator>JHTHORSEN</dc:creator>
+<dc:date>2015-09-22T12:37:00Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/PERLANCAR/Ubuntu-Releases-0.06">
+<title>Ubuntu-Releases-0.06</title>
+<link>https://metacpan.org/release/PERLANCAR/Ubuntu-Releases-0.06</link>
+<description>List Ubuntu releases</description>
+<dc:creator>PERLANCAR</dc:creator>
+<dc:date>2015-09-22T12:34:12Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/ARISTOTLE/XML-Atom-SimpleFeed-0.900">
+<title>XML-Atom-SimpleFeed-0.900</title>
+<link>https://metacpan.org/release/ARISTOTLE/XML-Atom-SimpleFeed-0.900</link>
+<description>No-fuss generation of Atom syndication feeds</description>
+<dc:creator>ARISTOTLE</dc:creator>
+<dc:date>2015-09-22T12:34:00Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/PERLANCAR/Ubuntu-Releases-0.05">
+<title>Ubuntu-Releases-0.05</title>
+<link>https://metacpan.org/release/PERLANCAR/Ubuntu-Releases-0.05</link>
+<description>List Ubuntu releases</description>
+<dc:creator>PERLANCAR</dc:creator>
+<dc:date>2015-09-22T12:21:09Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/PERLANCAR/App-ListUbuntuReleases-0.05">
+<title>App-ListUbuntuReleases-0.05</title>
+<link>https://metacpan.org/release/PERLANCAR/App-ListUbuntuReleases-0.05</link>
+<description>List Debian releases (CLI)</description>
+<dc:creator>PERLANCAR</dc:creator>
+<dc:date>2015-09-22T12:20:57Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/PERLANCAR/App-ListDebianReleases-0.06">
+<title>App-ListDebianReleases-0.06</title>
+<link>https://metacpan.org/release/PERLANCAR/App-ListDebianReleases-0.06</link>
+<description>List Debian releases (CLI)</description>
+<dc:creator>PERLANCAR</dc:creator>
+<dc:date>2015-09-22T12:20:46Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/SKIM/Mock-Person-DE-0.05">
+<title>Mock-Person-DE-0.05</title>
+<link>https://metacpan.org/release/SKIM/Mock-Person-DE-0.05</link>
+<description>Generate random sets of German names.</description>
+<dc:creator>SKIM</dc:creator>
+<dc:date>2015-09-22T12:11:41Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/PERLANCAR/PERLANCAR-Debian-Releases-0.01">
+<title>PERLANCAR-Debian-Releases-0.01</title>
+<link>https://metacpan.org/release/PERLANCAR/PERLANCAR-Debian-Releases-0.01</link>
+<description>List Debian releases</description>
+<dc:creator>PERLANCAR</dc:creator>
+<dc:date>2015-09-22T12:10:09Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/RENEEB/HTTP-Tiny-Multipart-0.05">
+<title>HTTP-Tiny-Multipart-0.05</title>
+<link>https://metacpan.org/release/RENEEB/HTTP-Tiny-Multipart-0.05</link>
+<description>Add post_multipart to HTTP::Tiny</description>
+<dc:creator>RENEEB</dc:creator>
+<dc:date>2015-09-22T11:32:08Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/PERLANCAR/App-ListDebianReleases-0.05">
+<title>App-ListDebianReleases-0.05</title>
+<link>https://metacpan.org/release/PERLANCAR/App-ListDebianReleases-0.05</link>
+<description>List Debian releases</description>
+<dc:creator>PERLANCAR</dc:creator>
+<dc:date>2015-09-22T11:28:05Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/MELEZHIK/swat-0.1.50">
+<title>swat-0.1.50</title>
+<link>https://metacpan.org/release/MELEZHIK/swat-0.1.50</link>
+<description>simple web application tests</description>
+<dc:creator>MELEZHIK</dc:creator>
+<dc:date>2015-09-22T11:17:40Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/SKIM/Mock-Person-CZ-0.04">
+<title>Mock-Person-CZ-0.04</title>
+<link>https://metacpan.org/release/SKIM/Mock-Person-CZ-0.04</link>
+<description>Generate random sets of Czech names.</description>
+<dc:creator>SKIM</dc:creator>
+<dc:date>2015-09-22T11:16:13Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/PERLANCAR/Borang-0.02">
+<title>Borang-0.02</title>
+<link>https://metacpan.org/release/PERLANCAR/Borang-0.02</link>
+<description>Function-oriented form framework</description>
+<dc:creator>PERLANCAR</dc:creator>
+<dc:date>2015-09-22T10:55:45Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/MELEZHIK/swat-0.1.49">
+<title>swat-0.1.49</title>
+<link>https://metacpan.org/release/MELEZHIK/swat-0.1.49</link>
+<description>simple web application tests</description>
+<dc:creator>MELEZHIK</dc:creator>
+<dc:date>2015-09-22T10:27:48Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/VDB/Dist-Zilla-Plugin-Templates-v0.5.0">
+<title>Dist-Zilla-Plugin-Templates-v0.5.0</title>
+<link>https://metacpan.org/release/VDB/Dist-Zilla-Plugin-Templates-v0.5.0</link>
+<description>Convert any text file into template</description>
+<dc:creator>VDB</dc:creator>
+<dc:date>2015-09-22T10:21:14Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/MELEZHIK/swat-metacpan-web-0.1.0">
+<title>swat-metacpan-web-0.1.0</title>
+<link>https://metacpan.org/release/MELEZHIK/swat-metacpan-web-0.1.0</link>
+<description>swat tests for metacpan.org</description>
+<dc:creator>MELEZHIK</dc:creator>
+<dc:date>2015-09-22T10:13:19Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/MARKOV/XML-Compile-SOAP-3.12">
+<title>XML-Compile-SOAP-3.12</title>
+<link>https://metacpan.org/release/MARKOV/XML-Compile-SOAP-3.12</link>
+<description>SOAP version 1.1</description>
+<dc:creator>MARKOV</dc:creator>
+<dc:date>2015-09-22T10:11:51Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/MARKOV/XML-Compile-SOAP-3.11">
+<title>XML-Compile-SOAP-3.11</title>
+<link>https://metacpan.org/release/MARKOV/XML-Compile-SOAP-3.11</link>
+<description>SOAP version 1.1</description>
+<dc:creator>MARKOV</dc:creator>
+<dc:date>2015-09-22T10:06:10Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/MELEZHIK/swat-0.1.48">
+<title>swat-0.1.48</title>
+<link>https://metacpan.org/release/MELEZHIK/swat-0.1.48</link>
+<description>simple web application tests</description>
+<dc:creator>MELEZHIK</dc:creator>
+<dc:date>2015-09-22T10:04:43Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/BENNING/Mail-MtPolicyd-1.21">
+<title>Mail-MtPolicyd-1.21</title>
+<link>https://metacpan.org/release/BENNING/Mail-MtPolicyd-1.21</link>
+<description>a modular policy daemon for postfix</description>
+<dc:creator>BENNING</dc:creator>
+<dc:date>2015-09-22T09:47:24Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/AMBS/Lingua-TreeTagger-Installer-0.50">
+<title>Lingua-TreeTagger-Installer-0.50</title>
+<link>https://metacpan.org/release/AMBS/Lingua-TreeTagger-Installer-0.50</link>
+<description>Automates TreeTagger installation</description>
+<dc:creator>AMBS</dc:creator>
+<dc:date>2015-09-22T09:29:18Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/MANWAR/Map-Tube-Barcelona-0.25">
+<title>Map-Tube-Barcelona-0.25</title>
+<link>https://metacpan.org/release/MANWAR/Map-Tube-Barcelona-0.25</link>
+<description>Interface to the Barcelona Metro Map.</description>
+<dc:creator>MANWAR</dc:creator>
+<dc:date>2015-09-22T09:27:51Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/SKIM/Env-Browser-0.05">
+<title>Env-Browser-0.05</title>
+<link>https://metacpan.org/release/SKIM/Env-Browser-0.05</link>
+<description>Process environment variable $BROWSER and run web browser.</description>
+<dc:creator>SKIM</dc:creator>
+<dc:date>2015-09-22T09:20:08Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/MJEMMESON/LWP-UserAgent-Mockable-1.12">
+<title>LWP-UserAgent-Mockable-1.12</title>
+<link>https://metacpan.org/release/MJEMMESON/LWP-UserAgent-Mockable-1.12</link>
+<description>Permits recording, and later playing back of LWP requests.</description>
+<dc:creator>MJEMMESON</dc:creator>
+<dc:date>2015-09-22T09:18:41Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/PERLANCAR/App-PMUtils-0.50">
+<title>App-PMUtils-0.50</title>
+<link>https://metacpan.org/release/PERLANCAR/App-PMUtils-0.50</link>
+<description>Command-line utilities related to Perl modules</description>
+<dc:creator>PERLANCAR</dc:creator>
+<dc:date>2015-09-22T09:17:04Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/PERLANCAR/Dist-Zilla-Role-Rinci-CheckDefinesMeta-0.02">
+<title>Dist-Zilla-Role-Rinci-CheckDefinesMeta-0.02</title>
+<link>https://metacpan.org/release/PERLANCAR/Dist-Zilla-Role-Rinci-CheckDefinesMeta-0.02</link>
+<description>Role to check if dist defines Rinci metadata</description>
+<dc:creator>PERLANCAR</dc:creator>
+<dc:date>2015-09-22T09:15:37Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/NICS/Catmandu-Store-MongoDB-0.04">
+<title>Catmandu-Store-MongoDB-0.04</title>
+<link>https://metacpan.org/release/NICS/Catmandu-Store-MongoDB-0.04</link>
+<description>A searchable store backed by MongoDB</description>
+<dc:creator>NICS</dc:creator>
+<dc:date>2015-09-22T09:06:29Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/MATTK/IPC-ConcurrencyLimit-0.14">
+<title>IPC-ConcurrencyLimit-0.14</title>
+<link>https://metacpan.org/release/MATTK/IPC-ConcurrencyLimit-0.14</link>
+<description>Lock-based limits on cooperative multi-processing</description>
+<dc:creator>MATTK</dc:creator>
+<dc:date>2015-09-22T08:07:02Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/PERLANCAR/Complete-Path-0.19">
+<title>Complete-Path-0.19</title>
+<link>https://metacpan.org/release/PERLANCAR/Complete-Path-0.19</link>
+<description>Complete path</description>
+<dc:creator>PERLANCAR</dc:creator>
+<dc:date>2015-09-22T08:01:38Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/RENEEB/Mojolicious-Plugin-I18NUtils-0.17">
+<title>Mojolicious-Plugin-I18NUtils-0.17</title>
+<link>https://metacpan.org/release/RENEEB/Mojolicious-Plugin-I18NUtils-0.17</link>
+<description>provide some helper functions for I18N</description>
+<dc:creator>RENEEB</dc:creator>
+<dc:date>2015-09-22T08:00:18Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/PERLANCAR/Complete-Getopt-Long-0.37">
+<title>Complete-Getopt-Long-0.37</title>
+<link>https://metacpan.org/release/PERLANCAR/Complete-Getopt-Long-0.37</link>
+<description>Complete command-line argument using Getopt::Long specification</description>
+<dc:creator>PERLANCAR</dc:creator>
+<dc:date>2015-09-22T07:58:50Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/PHRED/Archive-Zip-1.51">
+<title>Archive-Zip-1.51</title>
+<link>https://metacpan.org/release/PHRED/Archive-Zip-1.51</link>
+<description>Provide an interface to ZIP archive files.</description>
+<dc:creator>PHRED</dc:creator>
+<dc:date>2015-09-22T06:03:54Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/PREACTION/Statocles-0.055">
+<title>Statocles-0.055</title>
+<link>https://metacpan.org/release/PREACTION/Statocles-0.055</link>
+<description>A static site generator</description>
+<dc:creator>PREACTION</dc:creator>
+<dc:date>2015-09-22T05:14:04Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+<item rdf:about="https://metacpan.org/release/KARUPA/Aniki-0.03_01">
+<title>Aniki-0.03_01</title>
+<link>https://metacpan.org/release/KARUPA/Aniki-0.03_01</link>
+<description>The ORM as our great brother.</description>
+<dc:creator>KARUPA</dc:creator>
+<dc:date>2015-09-22T04:59:59Z</dc:date>
+<content:encoded> </content:encoded>
+</item>
+</rdf:RDF>100 47599  100 47599    0     0   6001      0  0:00:07  0:00:07 --:--:-- 13909
