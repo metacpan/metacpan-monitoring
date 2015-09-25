@@ -24,7 +24,7 @@ OR
 
 # USAGE
 
-    swat swat::metacpan::web https://metacpan.org
+    carton exec swat swat::metacpan::web https://metacpan.org 
 
 # Settings
 
