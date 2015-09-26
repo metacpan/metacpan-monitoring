@@ -11,9 +11,13 @@ This is simple test suit could be used in monitoring/deployment.
     - check if latest releases page/feed is accessible and returns not empty results 
     - check if latest release at https://metacpan.org/feed/recent?f= is not older than 4 hours ago
 
-# USAGE
+# INSTALL
 
+    yum install curl
     carton install
+
+# RUN TESTS
+
     carton exec swat ./  
 
 # Settings
