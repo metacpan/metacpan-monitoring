@@ -10,5 +10,5 @@ on 'configure' => sub {
 
 
 requires 'DateTime'                                                   => '>= 1.20';
-requires 'swat'                                                       => '>= 0.1.53';
+requires 'swat'                                                       => '>= 0.1.54';
 requires 'Time::Piece'                                                => '>= 1.30';

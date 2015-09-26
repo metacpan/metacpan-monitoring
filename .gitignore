@@ -29,4 +29,4 @@ pm_to_blib
 *.html
 *.tmp
 swat.my
-
+local/
