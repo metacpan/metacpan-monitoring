@@ -1,3 +1,8 @@
+package metacpan::monitoring;
+1;
+
+package main;
+
 use DateTime;                                   
 use Time::Piece;                                
 use Data::Dumper;
