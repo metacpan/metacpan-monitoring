@@ -6,10 +6,10 @@ This is simple test suit could be used in monitoring/deployment.
 
 # Checks perfomed
 
-    - check if landing page is accessible
-    - check if modules search is working properly
-    - check if latest releases page/feed is accessible and returns not empty results 
-    - check if latest release at https://metacpan.org/feed/recent?f= is not older than 4 hours ago
+- check if landing page is accessible
+- check if modules search is working properly
+- check if latest releases page/feed is accessible and returns not empty results 
+- check if latest release at https://metacpan.org/feed/recent?f= is not older than 4 hours ago
 
 # INSTALL
 
@@ -18,7 +18,7 @@ This is simple test suit could be used in monitoring/deployment.
 
 # RUN TESTS
 
-    carton exec swat ./  
+    carton exec swat 
 
 # Settings
 
