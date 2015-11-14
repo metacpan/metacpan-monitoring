@@ -11,6 +11,8 @@ use strict;
 
 sub validate_latest_release {
 
+    my $list = [];
+
     my $latest_date = shift;
 
     my $tp = Time::Piece->strptime($latest_date,'%Y-%m-%dT%TZ');  
@@ -28,11 +30,14 @@ sub validate_latest_release {
     my $latest_rs_age = latest_rs_age();
 
     if (DateTime->compare($dt, $threshold_date) == 1){
-        ok(1,"feed is alive. latest release date is: $latest_date. thershold date is: $threshold_date. threshold value is: $latest_rs_age hours.");
+        push @$list, 
+        "validator: [1, qq{feed is alive. latest release date is: $latest_date. thershold date is: $threshold_date. threshold value is: $latest_rs_age hours.}]";
     }else{
-        ok(0,"feed is not alive. latest release date is: $latest_date. thershold date is: $threshold_date. threshold value is: $latest_rs_age hours.");
+        push @$list, 
+        "validator: [0, qq{feed is not alive. latest release date is: $latest_date. thershold date is: $threshold_date. threshold value is: $latest_rs_age hours.}]";
     }
 
+    return $list;
 
 }
 

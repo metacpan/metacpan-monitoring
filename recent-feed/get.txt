@@ -4,16 +4,16 @@
 begin:
     regexp: <item rdf:.*>
     regexp: <title>(.*)<\/title>
-    code: ok(1,capture()->[0]);
+    validator: [ 1,capture()->[0] ]
     regexp: <link>(.*)<\/link>
-    code: ok(defined capture()->[0],'link: '.(capture()->[0]));
+    validator: [ ( defined capture()->[0] ), 'link: '.(capture()->[0]) ]
     regexp: <description>(.*)<\/description>
-    code: ok(defined capture()->[0],'description: '.(capture()->[0]));
+    validator: [ ( defined capture()->[0] ), 'description: '.(capture()->[0]) ]
     regexp: <dc:creator>(\S+)<\/dc:creator>
-    code: ok(defined capture()->[0],'creator: '.(capture()->[0]));
+    validator: [ ( defined capture()->[0] ) ,'creator: '.(capture()->[0]) ]
     regexp: <dc:date>(\S+)</dc:date>
-    code: ok(defined capture()->[0],'date: '.(capture()->[0]));
-    code: validate_latest_release( capture()->[0] )
+    validator: [ ( defined capture()->[0] ) ,'date: '.(capture()->[0]) ]
+    generator: validate_latest_release( capture()->[0] )
     regexp: <content:encoded>\s+<\/content:encoded>
     regexp: <\/item>
 end:
