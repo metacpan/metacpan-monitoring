@@ -28,7 +28,7 @@ _latest\_rs\_age_ hours this is considered as _feed freeze failure_. Default val
         # check that releases come to metacpan every 1 hour
         echo latest_rs_age=1 >> swat.my
 
-# RUN WITH [SPARROW](https://github.com/melezhik/sparrow)
+# INSTALL WITH SPARROW
 
     echo metacpan https://github.com/CPAN-API/metacpan-monitoring.git >> ~/sparrow/sparrow.list
     sparrow plg install metacpan
