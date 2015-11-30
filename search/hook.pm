@@ -1,3 +1,3 @@
 modify_resource(sub {
-    '/search'
+    '/search?q=swat&search_type=modules'
 });
