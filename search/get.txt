@@ -1,3 +1,2 @@
 200 OK
-lib/swat.pm
-regexp: name="release"\s+value="swat-(\d+\.\d+\.\d+)"
+Swat is a powerful and yet simple and flexible tool
