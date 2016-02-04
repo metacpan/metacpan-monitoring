@@ -48,6 +48,10 @@ This is simple test suit could be used in monitoring/deployment.
 
     sparrow check run metacpan recent-feed
 
+# Running by cron
+
+    sparrow check run metacpan recent-feed --cron
+
 # COPYRIGHT
 
 Copyright 2015 Alexey Melezhik.
