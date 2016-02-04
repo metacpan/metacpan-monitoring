@@ -29,6 +29,19 @@ DISTRIBUTIONS
       Class::Singleton 1.5
     requirements:
       ExtUtils::MakeMaker 0
+  Config-Tiny-2.23
+    pathname: R/RS/RSAVAGE/Config-Tiny-2.23.tgz
+    provides:
+      Config::Tiny 2.23
+    requirements:
+      ExtUtils::MakeMaker 0
+      File::Spec 3.3
+      File::Temp 0.22
+      Test::More 0.47
+      UNIVERSAL 0
+      perl v5.8.1
+      strict 0
+      utf8 0
   DateTime-1.21
     pathname: D/DR/DROLSKY/DateTime-1.21.tar.gz
     provides:
@@ -616,12 +629,13 @@ DISTRIBUTIONS
       constant 0
       strict 0
       warnings 0
-  swat-0.1.67
-    pathname: M/ME/MELEZHIK/swat-0.1.67.tar.gz
+  swat-0.1.82
+    pathname: M/ME/MELEZHIK/swat-0.1.82.tar.gz
     provides:
-      swat 0.001067
+      swat 0.001082
       swat::story undef
     requirements:
+      Config::Tiny 0
       ExtUtils::MakeMaker 6.36
       File::Temp 0
       Outthentic::DSL v0.0.3
