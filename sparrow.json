@@ -1,5 +1,8 @@
 {
-    "version": "0.1.0",
-    "name" : "metacpan-monitoring"
+    "version": "0.1.1",
+    "name" : "metacpan-monitoring",
+    "engine": "swat",
+    "description" : "checks metacpan API health with swat",
+    "url": "https://github.com/CPAN-API/metacpan-monitoring"
 }
 
