@@ -42,7 +42,7 @@ sub validate_latest_release {
 }
 
 sub latest_rs_age {
-    $ENV{'latest_rs_age'} || 4
+    config()->{metacpan}->{latest_rs_age}
 }
 
 1;

@@ -11,28 +11,42 @@ This is simple test suit could be used in monitoring/deployment.
 - check if latest releases page/feed is accessible and returns not empty results 
 - check if latest release at https://metacpan.org/feed/recent?f= is not older than 4 hours ago
 
-# INSTALL
+# Install
 
     yum install curl
     carton install
 
-# RUN TESTS
+# Run tests
 
     carton exec swat 
 
-# Settings
+# Suite.ini
 
-- `latest_rs_age` - define critical age in hours for a latest release appeared at https://metacpan.org/feed/recent?f= , if latest release's age more then
-_latest\_rs\_age_ hours this is considered as _feed freeze failure_. Default value is _4_.
+    [metacpan]
 
-        # check that releases come to metacpan every 1 hour
-        echo latest_rs_age=1 >> swat.my
+    # define critical age in hours for a latest release appeared at https://metacpan.org/feed/recent?f= 
+    # if latest release's age more then latest_rs_age_ hours 
+    # this is considered as feed freeze failure. Default value is 4
+        
+        latest_rs_age = 4
 
-# INSTALL WITH SPARROW
 
-    echo metacpan https://github.com/CPAN-API/metacpan-monitoring.git >> ~/sparrow/sparrow.list
-    sparrow plg install metacpan
+# Run tests with sparrow
 
+    sparrow index update
+    sparrow plg install metacpan-monitoring
+
+    sparrow project create metacpan
+    sparrow check add metacpan recent-feed
+    sparrow check set metacpan recent-feed metacpan-monitoring
+
+    sparrow check ini metacpan recent-feed
+
+    [metacpan]
+
+    latest_rs_age = 4
+
+    sparrow check run metacpan recent-feed
 
 # COPYRIGHT
 
