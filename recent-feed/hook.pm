@@ -1,5 +1,2 @@
 use metacpan::monitoring;
-
-modify_resource( sub {
-    '/feed/recent?f='
-})
+run_swat_module( GET => '/feed/recent' );
