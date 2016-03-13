@@ -1,5 +1,5 @@
 {
-    "version": "0.1.3",
+    "version": "0.1.4.1",
     "name" : "metacpan-monitoring",
     "engine": "swat",
     "description" : "checks metacpan API health with swat",
