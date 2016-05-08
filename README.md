@@ -14,6 +14,7 @@ This is simple test suit could be used in monitoring/deployment.
 # Install
 
     yum install curl
+
     carton install
 
 # Run tests
@@ -30,27 +31,6 @@ This is simple test suit could be used in monitoring/deployment.
         
         latest_rs_age = 4
 
-
-# Run tests with sparrow
-
-    sparrow index update
-    sparrow plg install metacpan-monitoring
-
-    sparrow project create metacpan
-    sparrow check add metacpan recent-feed
-    sparrow check set metacpan recent-feed metacpan-monitoring
-
-    sparrow check ini metacpan recent-feed
-
-    [metacpan]
-
-    latest_rs_age = 4
-
-    sparrow check run metacpan recent-feed
-
-# Running by cron
-
-    sparrow check run metacpan recent-feed --cron
 
 # COPYRIGHT
 
