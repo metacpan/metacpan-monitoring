@@ -497,6 +497,15 @@ DISTRIBUTIONS
     requirements:
       ExtUtils::MakeMaker 6.17
       perl 5.006001
+  JSON-2.90
+    pathname: M/MA/MAKAMAKA/JSON-2.90.tar.gz
+    provides:
+      JSON 2.90
+      JSON::Backend::PP 2.90
+      JSON::Boolean 2.90
+    requirements:
+      ExtUtils::MakeMaker 0
+      Test::More 0
   List-MoreUtils-0.413
     pathname: R/RE/REHSACK/List-MoreUtils-0.413.tar.gz
     provides:
@@ -585,12 +594,16 @@ DISTRIBUTIONS
       perl 5.006
       strict 0
       warnings 0
-  Outthentic-DSL-0.0.4
-    pathname: M/ME/MELEZHIK/Outthentic-DSL-0.0.4.tar.gz
+  Outthentic-DSL-0.1.4
+    pathname: M/ME/MELEZHIK/Outthentic-DSL-0.1.4.tar.gz
     provides:
-      Outthentic::DSL 0.000004
+      Outthentic::DSL 0.001004
+      Outthentic::DSL::Context::Default undef
+      Outthentic::DSL::Context::Range undef
+      Outthentic::DSL::Context::TextBlock undef
     requirements:
       ExtUtils::MakeMaker 6.36
+      JSON 0
   Params-Validate-1.21
     pathname: D/DR/DROLSKY/Params-Validate-1.21.tar.gz
     provides:
@@ -629,15 +642,45 @@ DISTRIBUTIONS
       constant 0
       strict 0
       warnings 0
-  swat-0.1.82
-    pathname: M/ME/MELEZHIK/swat-0.1.82.tar.gz
+  YAML-1.15
+    pathname: I/IN/INGY/YAML-1.15.tar.gz
     provides:
-      swat 0.001082
+      YAML 1.15
+      YAML::Any 1.15
+      YAML::Dumper undef
+      YAML::Dumper::Base undef
+      YAML::Error undef
+      YAML::Loader undef
+      YAML::Loader::Base undef
+      YAML::Marshall undef
+      YAML::Mo 0.88
+      YAML::Node undef
+      YAML::Tag undef
+      YAML::Type::blessed undef
+      YAML::Type::code undef
+      YAML::Type::glob undef
+      YAML::Type::ref undef
+      YAML::Type::regexp undef
+      YAML::Type::undef undef
+      YAML::Types undef
+      YAML::Warning undef
+      yaml_mapping undef
+      yaml_scalar undef
+      yaml_sequence undef
+    requirements:
+      ExtUtils::MakeMaker 0
+      perl 5.008001
+  swat-0.1.96
+    pathname: M/ME/MELEZHIK/swat-0.1.96.tar.gz
+    provides:
+      swat 0.001096
       swat::story undef
     requirements:
       Config::Tiny 0
       ExtUtils::MakeMaker 6.36
       File::Temp 0
-      Outthentic::DSL v0.0.3
+      Outthentic::DSL v0.0.10
+      Term::ANSIColor 4.02
       Test::Harness 0
       Test::More 0
+      YAML 0

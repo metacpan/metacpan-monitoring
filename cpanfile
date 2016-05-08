@@ -1,4 +1,4 @@
 requires 'DateTime'  => '>= 1.20';
-requires 'swat' => '>= 0.1.91';
+requires 'swat' => '>= 0.1.96';
 requires 'Time::Piece' => '>= 1.30';
-requires 'Outthentic::DSL' => '>= 0.0.4';
+requires 'Outthentic::DSL' => '>= 0.1.4';
