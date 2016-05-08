@@ -1,28 +1,5 @@
 # carton snapshot format: version 1.0
 DISTRIBUTIONS
-  CPAN-Meta-2.150005
-    pathname: D/DA/DAGOLDEN/CPAN-Meta-2.150005.tar.gz
-    provides:
-      CPAN::Meta 2.150005
-      CPAN::Meta::Converter 2.150005
-      CPAN::Meta::Feature 2.150005
-      CPAN::Meta::History 2.150005
-      CPAN::Meta::Merge 2.150005
-      CPAN::Meta::Prereqs 2.150005
-      CPAN::Meta::Spec 2.150005
-      CPAN::Meta::Validator 2.150005
-    requirements:
-      CPAN::Meta::Requirements 2.121
-      CPAN::Meta::YAML 0.008
-      Carp 0
-      ExtUtils::MakeMaker 6.17
-      JSON::PP 2.27200
-      Parse::CPAN::Meta 1.4414
-      Scalar::Util 0
-      perl 5.008
-      strict 0
-      version 0.88
-      warnings 0
   Class-Singleton-1.5
     pathname: S/SH/SHAY/Class-Singleton-1.5.tar.gz
     provides:
@@ -42,24 +19,23 @@ DISTRIBUTIONS
       perl v5.8.1
       strict 0
       utf8 0
-  DateTime-1.21
-    pathname: D/DR/DROLSKY/DateTime-1.21.tar.gz
+  DateTime-1.26
+    pathname: D/DR/DROLSKY/DateTime-1.26.tar.gz
     provides:
-      DateTime 1.21
-      DateTime::Duration 1.21
-      DateTime::Helpers 1.21
-      DateTime::Infinite 1.21
-      DateTime::Infinite::Future 1.21
-      DateTime::Infinite::Past 1.21
-      DateTime::LeapSecond 1.21
-      DateTime::PP 1.21
-      DateTime::PPExtra 1.21
+      DateTime 1.26
+      DateTime::Duration 1.26
+      DateTime::Helpers 1.26
+      DateTime::Infinite 1.26
+      DateTime::Infinite::Future 1.26
+      DateTime::Infinite::Past 1.26
+      DateTime::LeapSecond 1.26
+      DateTime::PP 1.26
+      DateTime::PPExtra 1.26
     requirements:
       Carp 0
       DateTime::Locale 0.41
       DateTime::TimeZone 1.74
-      ExtUtils::CBuilder 0
-      Module::Build 0.28
+      ExtUtils::MakeMaker 0
       POSIX 0
       Params::Validate 1.03
       Scalar::Util 0
@@ -523,56 +499,6 @@ DISTRIBUTIONS
       IPC::Cmd 0
       XSLoader 0
       base 0
-  Module-Build-0.4214
-    pathname: L/LE/LEONT/Module-Build-0.4214.tar.gz
-    provides:
-      Module::Build 0.4214
-      Module::Build::Base 0.4214
-      Module::Build::Compat 0.4214
-      Module::Build::Config 0.4214
-      Module::Build::Cookbook 0.4214
-      Module::Build::Dumper 0.4214
-      Module::Build::Notes 0.4214
-      Module::Build::PPMMaker 0.4214
-      Module::Build::Platform::Default 0.4214
-      Module::Build::Platform::MacOS 0.4214
-      Module::Build::Platform::Unix 0.4214
-      Module::Build::Platform::VMS 0.4214
-      Module::Build::Platform::VOS 0.4214
-      Module::Build::Platform::Windows 0.4214
-      Module::Build::Platform::aix 0.4214
-      Module::Build::Platform::cygwin 0.4214
-      Module::Build::Platform::darwin 0.4214
-      Module::Build::Platform::os2 0.4214
-      Module::Build::PodParser 0.4214
-    requirements:
-      CPAN::Meta 2.142060
-      CPAN::Meta::YAML 0.003
-      Cwd 0
-      Data::Dumper 0
-      ExtUtils::CBuilder 0.27
-      ExtUtils::Install 0
-      ExtUtils::Manifest 0
-      ExtUtils::Mkbootstrap 0
-      ExtUtils::ParseXS 2.21
-      File::Basename 0
-      File::Compare 0
-      File::Copy 0
-      File::Find 0
-      File::Path 0
-      File::Spec 0.82
-      File::Temp 0.15
-      Getopt::Long 0
-      Module::Metadata 1.000002
-      Parse::CPAN::Meta 1.4401
-      Perl::OSType 1
-      Pod::Man 2.17
-      Test::Harness 3.16
-      Test::More 0.49
-      Text::Abbrev 0
-      Text::ParseWords 0
-      perl 5.008000
-      version 0.87
   Module-Implementation-0.09
     pathname: D/DR/DROLSKY/Module-Implementation-0.09.tar.gz
     provides:
@@ -623,6 +549,17 @@ DISTRIBUTIONS
       strict 0
       vars 0
       warnings 0
+  Scalar-List-Utils-1.45
+    pathname: P/PE/PEVANS/Scalar-List-Utils-1.45.tar.gz
+    provides:
+      List::Util 1.45
+      List::Util::XS 1.45
+      Scalar::Util 1.45
+      Sub::Util 1.45
+    requirements:
+      ExtUtils::MakeMaker 0
+      Test::More 0
+      perl 5.006
   Time-Piece-1.31
     pathname: E/ES/ESAYM/Time-Piece-1.31.tar.gz
     provides:
