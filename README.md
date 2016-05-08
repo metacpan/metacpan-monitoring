@@ -29,7 +29,7 @@ This is simple test suit could be used in monitoring/deployment.
     # if latest release's age more then latest_rs_age_ hours 
     # this is considered as feed freeze failure. Default value is 4
         
-        latest_rs_age = 4
+    latest_rs_age = 4
 
 
 # COPYRIGHT
