@@ -1,0 +1,7 @@
+metacpan should have
+freshly uploaded modules
+every N hour
+so if it is not
+it should be treated 
+as an error
+
