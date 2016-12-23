@@ -1,18 +1,2 @@
 200 OK
 Recent - metacpan.org
-
-
-within:<div class="smaller">
-regexp: (\d+,\d+)
-
-generator: <<CODE
-
-  my $total=capture()->[0]; 
-  s/,// for $total; 
-  [ 
-    "assert: ".($total > 0 ? 1 : 0)." total number: $total is greater than 0" 
-  ];
-
-CODE
-
-
