@@ -26,7 +26,15 @@ set_response_processor(
    if ($@){
      return "Headers: $headers\nwrong XML: $@"
    } else {
-     return "Headers: $headers\ncorrect XML"
+
+    our @site_map_url;
+    #my $i=0;
+    while ($xml =~ /\<loc\>(.+?)\<\/loc\>/gxo) {
+      push @site_map_url,$1;
+      #last if $i++>10;
+    }
+    
+     return "Headers: $headers\ncorrect XML\n$xml"
    }
 });
 
