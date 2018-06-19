@@ -1,0 +1,6 @@
+metacpan monitoring 
+test suite
+==========
+post issues to
+https://github.com/metacpan/metacpan-monitoring/issues
+======================================================
