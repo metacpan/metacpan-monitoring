@@ -1,2 +1,2 @@
-200 OK
+200
 Recent - metacpan.org
