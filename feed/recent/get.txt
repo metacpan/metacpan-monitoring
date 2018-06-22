@@ -1,4 +1,4 @@
-200 OK
+200
 <title>Recent CPAN uploads - MetaCPAN</title>
 
 between: <item\s </item>
