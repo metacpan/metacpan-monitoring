@@ -1,5 +1,5 @@
 download CPAN authors from sitemap-authors.xml.gz
-and cfor every author from the list 
+and for every author from the list 
 check author's page
 the number of authors to check
 is controlled by metacpan.max_authors setting 

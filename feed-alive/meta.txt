@@ -1,0 +1,10 @@
+download recent feed
+and check if it is fresh
+the freshness of feed
+is defined by "metacpan.latest_rs_age" variable
+which sets the  age in hours
+of the latest CPAN disrto appeared in "recents". 
+If the latest distribution is older
+then "metacpan.latest_rs_age" hours
+than feed is considered as dead or stuck.
+
