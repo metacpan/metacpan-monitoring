@@ -6,11 +6,11 @@ regexp: <dc:date>(\S+)<\/dc:date>
 generator: validate_latest_release( capture()->[0] )
 
 regexp: <title>(\S+)<\/title>
-code: note capture()->[0]
+code: swat_note(capture()->[0])
 
 regexp: <description>(.*)<\/description>
-code: note capture()->[0]
+code: swat_note(capture()->[0])
 
 regexp: <dc:creator>(\S+)<\/dc:creator>
-code: note capture()->[0]
+code: swat_note(capture()->[0])
 
