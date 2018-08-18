@@ -2,20 +2,13 @@
 
 [Swat](https://github.com/melezhik/swat) tests for metacpan.org
 
-This is simple test suit could be used in monitoring/deployment.
-
-# Checks perfomed
-
-- check if landing page is accessible
-- check if modules search is working properly
-- check if latest releases page/feed is accessible and returns not empty results 
-- check if latest release at https://metacpan.org/feed/recent?f= is not older than 4 hours ago
+Checks accessibility of metacpan.org. 
 
 # Install
 
-    yum install curl
+    $ sudo yum install curl
 
-    carton install
+    $ carton install
 
 # Run tests
 
@@ -31,6 +24,9 @@ This is simple test suit could be used in monitoring/deployment.
         
     latest_rs_age = 4
 
+    # define maximum number of CPAN authors ( downloaded from sitemap-authors.xml.gz ) checked 
+
+    max_authors = 10
 
 # COPYRIGHT
 
