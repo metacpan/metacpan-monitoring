@@ -14,6 +14,10 @@ Checks accessibility of metacpan.org.
 
     carton exec swat 
 
+# Report example
+
+![Report example](https://raw.githubusercontent.com/metacpan/metacpan-monitoring/master/report.png)
+
 # Suite.ini
 
     [metacpan]
