@@ -11,4 +11,4 @@ export swat_purge_cache=1
 
 # Look at the last line, if it does NOT match 'Result: PASS' then cat
 # the whole file for us to debug
-tail -1 $SWAT_FILE | grep -v 'Result: PASS' && cat $SWAT_FILE
+tail -1 $SWAT_FILE | grep -v 'FINISHED. OK' && cat $SWAT_FILE
