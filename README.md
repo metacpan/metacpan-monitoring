@@ -24,9 +24,9 @@ Checks accessibility of metacpan.org.
 
     # define critical age in hours for a latest release appeared at https://metacpan.org/feed/recent?f= 
     # if latest release's age more then latest_rs_age_ hours 
-    # this is considered as feed freeze failure. Default value is 4
+    # this is considered as feed freeze failure. Default value is 8
         
-    latest_rs_age = 4
+    latest_rs_age = 8
 
     # define maximum number of CPAN authors ( downloaded from sitemap-authors.xml.gz ) checked 
 
