@@ -1,1 +1,1 @@
-run_swat_module( GET => "feed/recent");
+run_swat_module( GET => "recent.rss");
